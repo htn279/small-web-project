@@ -1,0 +1,92 @@
+html {
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #023d8a8c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 900px;
+  height: 600px;
+  background-color: white;
+  border-radius: 30px;
+  border: 2px solid #ced4da;
+  box-shadow: 1px 4px 4px #dee2e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  width: 285px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  width: 15rem;
+  margin: auto;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.col:nth-child(1),
+.col:nth-child(2) {
+  border-right: 1.9px solid #ced4da8c;
+}
+h1 {
+  color: grey;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  height: 15%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 50%;
+  height: 10%;
+}
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  width: 70%;
+  margin: 20px auto;
+  margin-bottom: 0;
+  border-bottom: 1.5px solid #ced4da8a;
+  padding-bottom: 15px;
+}
+button {
+  width: 50%;
+  font-family: "Foundry Monoline OT3", serif;
+  height: 80px;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #023d8acb;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-weight: normal;
+  color: white;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-bottom: 7px;
+}
+
+button:hover {
+  color: #023d8acb;
+  background-color: white;
+  border: 3px solid #023d8acb;
+  font-weight: bold;
+}
+
+button:active {
+  transform: translate(4px, 4px);
+}
